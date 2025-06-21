@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principal's Message</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">  <style>
+        .principal-message {
+            padding: 40px 0; /* Increased padding */
+            background-color: #f8f9fa; /* Softer background color */
+        }
+
+        .principal-message .container {
+            max-width: 960px; /* Set a maximum width for the container */
+        }
+        .principal-message img {
+            max-width: 250px; /* Set a max width for image*/
+            height: auto;
+            border-radius: 8px; /* Slightly more rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow on image */
+            margin-bottom: 20px; /* Space below the image */
+        }
+
+        .principal-message h1 {
+            color: #343a40; /* Darker heading color */
+            margin-bottom: 10px; /* Space below heading */
+        }
+
+        .principal-message p {
+            line-height: 1.6; /* Improved readability */
+            color: #555; /* Slightly lighter text color */
+        }
+        .principal-message mark{
+            background-color: #007bff; /* Primary color for mark */
+            color: white;
+            padding: 3px 6px;
+            border-radius: 3px;
+        }
+
+        /* Responsive adjustments */
+        @media (min-width: 768px) {
+            .principal-message .row {
+                display: flex; /* Use flexbox for layout on larger screens */
+                align-items: center; /* Vertically center content */
+            }
+            .principal-message .col-md-4 {
+                text-align: center; /* Center image on medium and larger screens */
+            }
+            .principal-message img {
+                float: none; /* Remove float on larger screens */
+            }
+        }
+        footer {
+            background-color: #eb4545; /* Darker background */
+            color: #eee; /* Lighter text color */
+            padding: 40px;
+        }
+        
+        .footer-content {
+            display: flex;
+            flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+            justify-content: space-around; /* Distributes items evenly */
+            align-items: flex-start; /* Aligns items to the top */
+            max-width: 1200px;  /* Set a maximum width */
+            margin: 0 auto; /* Center the content */
+        }
+        
+        .contact-info, .footer-logo, .footer-text {
+            flex: 1; /* Each section takes up equal space */
+            margin-bottom: 20px; /* Space between sections */
+            text-align: center; /* Center text within sections */
+        }
+        
+        .contact-info address {
+            font-style: normal; /* Address shouldn't be italic */
+            margin-bottom: 10px;
+        }
+        
+        .contact-info a {
+            color: #eee; /* Link color */
+            text-decoration: none;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        
+        .footer-logo img {
+            max-width: 200px; /* Limit logo width */
+            height: auto;
+        }
+        
+        .footer-text p {
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+<header class="header">
+        <a href="/">
+          <img src="https://priyadarshaniinternationalschool.org/images/logo/logo-260.png"  style="height: 70px; width: 70px;"
+               alt="Brand logo" > 
+                  <span class="brand-logo-name">
+                 
+        <nav class="navbar">
+            <ul class="navbar-lists" id="myTopnav">
+                <li>
+                      <i class="fas fa-home"></i>
+                          <a class="navbar-link home-link" href="#">
+                              Home</a>
+                  </li>
+                <li>
+                      <i class="fas fa-user"></i>
+                          <a class="navbar-link about-link" 
+                           href="#about-us-section">
+                              About Us
+                          </a>
+                </li>
+                <li>
+                      <i class="fas fa-envelope"></i>
+                          <a class="navbar-link contact-link" 
+                           href="#contact-form">
+                          Contact Us
+                          </a>
+                  </li>
+                <li>
+                    <i class="fas fa-envelope"></i>
+                    <a class="navbar-link contact-link" 
+                     href="massage- ceo.html">
+                    CEO-massage
+                    </a> 
+                  </li>
+                      <li>
+                        <i class="fas fa-bullhorn"></i>
+                            <a class="navbar-link service-link" 
+                             href="president.html">
+                          President-message
+                            </a>
+                            <li>
+                                <i class="fas fa-bullhorn"></i>
+                                    <a class="navbar-link service-link" 
+                                     href="principle.html">
+                                    principal-message
+                                    </a>
+                  </li>
+                  <li>
+                    <i class="fas fa-envelope"></i>
+                        <a class="navbar-link contact-link" 
+                         href="WHYPRIS.html">
+                        Events
+                        </a>
+                </li>
+            </ul>
+
+            <a href="javascript:void(0);" 
+               class="icon" onclick="myFunction()";>
+                <i> </i>
+            </a>
+        </nav>
+    </header>
+    <section class="principal-message" style="background-color: rgb(248, 220, 61);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://priyadarshaniinternationalschool.org/images/about/Dr.Parag-Agrawal-Principal.webp" alt="Principal's Photo" class="img-fluid">
+                </div>
+                <div class="col-md-8">
+                    <h1>Parag Agrawal</h1>
+                    <p>
+                        <mark>Principal</mark> – Priyadarshani International School<br>
+                        I am really honored and feel very privileged to function as the principal of Priyadarshani International School. Let me take this opportunity to thank the management of the Priyadarshani Foundation, who has a great vision to provide quality education for rural children.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <address>Ghoti - Sinnar Link Road, Kawaddara - Bharvir Bk opposite SMBT Institute Nashik, Maharashtra 422403 India</address>
+                <a href="mailto:priyadarshanischool2015@gmail.com">priyadarshanischool2015@gmail.com</a><br>
+                <a href="https://www.priyadarshaniinternationalschool.org" target="_blank">www.priyadarshaniinternationalschool.org</a><br><br>
+                <p>Administration Dept: 7888004682</p>
+                <p>Accounts Dept: 7888004681</p>
+                <p>School Office: 7888004683</p>
+            </div>
+            <div class="footer-logo">
+                <img src="https://priyadarshaniinternationalschool.org/images/logo/footer-logo.png" alt="Priyadarshani International School Logo">
+            </div>
+            <div class="footer-text">
+                <p>Education is an asset, and at Priyadarshani International School we strive every day to provide the best of it. It is our goal to provide holistic education and set our students on the path of success from the very beginning.</p>
+                <p>&copy; 2024 Priyadarshani International School. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> </body>
+</html>
